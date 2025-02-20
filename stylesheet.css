@@ -1,0 +1,48 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+.hidden {
+ visibility: hidden;
+}
+
+#popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: whitesmoke;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.popup-content {
+  position: relative;
+  background: whitesmoke;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  width: 300px;
+  outline: 1px solid;
+}
+
+#closeBtn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: red;
+  color: white;
+  border: none;
+  padding: 5px;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.popup-content img {
+  border-radius: 5px;
+  width: 100%;
+  height: auto;
+}
